@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "author": "Wilton L. Silva",
+    "author": "Jadson Sobrinho",
     "editor": "wokwi",
     "parts": [
       {
@@ -31,7 +31,7 @@
       [ "pico:GP1", "$serialMonitor:TX", "", [] ],
       [ "led1:C", "r1:1", "gray", [ "v0" ] ],
       [ "pico:GND.4", "r1:2", "black", [ "h0" ] ],
-      [ "pico:GP13", "led1:A", "green", [ "h0" ] ]
+      [ "pico:GP13", "led1:A", "red", [ "h0" ] ]
     ],
     "dependencies": {}
   }
